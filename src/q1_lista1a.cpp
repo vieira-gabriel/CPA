@@ -1,5 +1,7 @@
 #include <string>
 #include <algorithm>
+
+// Bilbioteca onde tem as caracteríticas da Matriz de Automatos
 #include "Automato.h"
 
 using namespace std;
