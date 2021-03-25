@@ -13,7 +13,9 @@ vector<string> Lm;
 void ShowLanguage(vector<string> L){
      cout << '{';
     for(vector<string>::const_iterator i = L.begin(); i != L.end(); i++){
-        cout << *i << ' ';
+        if(i != L.begin())
+            cout << ", ";
+        cout << *i ;
     }
     cout << '}' << endl;
 }
